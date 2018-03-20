@@ -1,0 +1,249 @@
+body{
+	font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.span-icon{
+	background: rgb(103, 211, 177);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+.navbar-default{
+	background-color: #fff;
+	border:none;
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.30);
+}
+
+.navbar-default .navbar-brand{
+	font-size:30px;
+	font-weight: bold;
+	color:#40d2b1;
+	height: 70px;
+	line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	height: 70px;
+	line-height: 35px;
+}
+
+.navbar-default .navbar-toggle:hover{
+	border-color:#40d2b1;
+	background-color: rgba(69,210,184);
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #1c9982;
+}
+
+/*navbar toggle button middle in vertical*/
+.navbar-toggle{
+	margin-top: 17px;
+}
+
+.language{
+	display: inherit;
+}
+
+/*page_home*/
+#page_home{
+	background: url('../../../images/home-bg.jpg');
+	background-size: cover;
+	color: #ffffff;
+	margin-top: 70px;
+	text-align:center;
+	width: 100%;
+
+}
+.blur{
+	width: 100%;
+	height: 100%;
+	background:  rgba(0,0,0,0.5);
+	padding: 90px 0; 
+}
+
+#page_home h1{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+#page_home p{
+	font-weight: 400;
+	line-height: 35px;
+}
+
+#home_page img{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+/*blog*/
+#blog{
+	padding: 80px;
+	text-align: center;
+}
+
+#blog a{
+	color:#212121;
+	text-decoration: none;
+}
+
+
+#blog img{
+	margin: 0 auto;
+}
+
+#blog h3{
+	font-weight: bold;
+}
+
+/*html5*/
+#html5{
+	background-color: #f8f8f8;
+	padding: 80px 0;
+}
+
+#html5 h2{
+	font-weight: bold;
+}
+
+#html5 p{
+	line-height: 40px;
+}
+
+/*bootstrap*/
+#bootstrap{
+	background-color: #f8f8f8;
+	padding: 80px 0;
+}
+
+#bootstrap p{
+	line-height: 35px;
+}
+
+/*course*/
+#course{
+	background-color: #ffffff;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.course{
+	border: 1px solid #40D2B1;
+	border-radius: 5px;
+}
+#course img{
+	margin: 0 auto;
+}
+
+#course h2{
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+#course .col-md-3{
+    margin-bottom: 20px;
+}
+
+
+#course .btn{
+	background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+
+#course .btn:hover{
+    background: rgb(44, 142, 120);
+    color: #fff;
+}
+
+/*app*/
+#app{
+	padding: 80px 0;
+}
+
+#app h2{
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+#app p{
+	padding-bottom: 20px;
+}
+
+#app .btn{
+	margin: 10px auto;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+
+#app .btn:hover{
+	background-color: rgb(16, 115, 93);
+}
+
+/*contact*/
+#contact{
+	background:url('../../../images/contact-bg.png') 100% 100% no-repeat;
+	color: #ffffff;
+}
+
+#contact h2{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+#contact .form-control{
+	border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#contact textarea .form-control{
+	height: auto;
+}
+
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
+
+
+
+
+
+
+
+
+
+
